@@ -14,6 +14,9 @@
 		6AD178211DA7877800C48238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD1781F1DA7877800C48238 /* LaunchScreen.storyboard */; };
 		6AD1782C1DA7877800C48238 /* ConceptsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD1782B1DA7877800C48238 /* ConceptsTests.swift */; };
 		6AD178371DA7877800C48238 /* ConceptsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD178361DA7877800C48238 /* ConceptsUITests.swift */; };
+		6AD178451DA78A1400C48238 /* ConceptTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD178441DA78A1400C48238 /* ConceptTableViewCell.swift */; };
+		6AD178471DA7902400C48238 /* ConceptTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD178461DA7902400C48238 /* ConceptTableViewController.swift */; };
+		6AD178491DA7911500C48238 /* Concept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD178481DA7911500C48238 /* Concept.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		6AD178321DA7877800C48238 /* ConceptsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConceptsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD178361DA7877800C48238 /* ConceptsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConceptsUITests.swift; sourceTree = "<group>"; };
 		6AD178381DA7877800C48238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AD178441DA78A1400C48238 /* ConceptTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConceptTableViewCell.swift; sourceTree = "<group>"; };
+		6AD178461DA7902400C48238 /* ConceptTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConceptTableViewController.swift; sourceTree = "<group>"; };
+		6AD178481DA7911500C48238 /* Concept.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Concept.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				6AD178161DA7877800C48238 /* AppDelegate.swift */,
 				6AD178181DA7877800C48238 /* ViewController.swift */,
 				6AD1781A1DA7877800C48238 /* Main.storyboard */,
+				6AD178441DA78A1400C48238 /* ConceptTableViewCell.swift */,
+				6AD178481DA7911500C48238 /* Concept.swift */,
+				6AD178461DA7902400C48238 /* ConceptTableViewController.swift */,
 				6AD1781D1DA7877800C48238 /* Assets.xcassets */,
 				6AD1781F1DA7877800C48238 /* LaunchScreen.storyboard */,
 				6AD178221DA7877800C48238 /* Info.plist */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AD178471DA7902400C48238 /* ConceptTableViewController.swift in Sources */,
+				6AD178451DA78A1400C48238 /* ConceptTableViewCell.swift in Sources */,
 				6AD178191DA7877800C48238 /* ViewController.swift in Sources */,
 				6AD178171DA7877800C48238 /* AppDelegate.swift in Sources */,
+				6AD178491DA7911500C48238 /* Concept.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
