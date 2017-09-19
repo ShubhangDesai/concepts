@@ -102,7 +102,6 @@
         <!--View Controller-->
         <scene sceneID="xp5-8C-sRa">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HP2-ty-X6K" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="YcH-ng-xnZ" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="apg-IZ-rch"/>
@@ -129,6 +128,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="XfT-dV-jYC"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HP2-ty-X6K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2630" y="315"/>
         </scene>
